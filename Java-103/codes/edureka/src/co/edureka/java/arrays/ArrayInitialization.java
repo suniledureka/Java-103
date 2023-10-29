@@ -7,7 +7,7 @@ public class ArrayInitialization {
 	public static void main(String[] args) {
 		int[] marks = {78,84,96,82,91,76,63};
 		
-		System.out.println(marks);
+		System.out.println(marks); //toString()
 		System.out.println("no of subjects = " + marks.length);
 		System.out.println(Arrays.toString(marks));
 		System.out.println();
